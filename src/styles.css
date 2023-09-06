@@ -1,0 +1,95 @@
+/* Global Styles */
+header{
+    background-color: #FFBABA;
+    width: 100%;
+    height: 10em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+h1 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.5em;
+  }
+  h2,
+  h3 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+  }
+  body {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  nav {
+    float: right;
+    margin-top: 3.5em;
+    margin-right: 2em;
+    
+}
+  nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 1em;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+  }
+  nav a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+footer{
+  background-color: #FFBABA;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2em;
+}
+
+/* Minhas Classes */
+.sobre{
+    margin: 2em;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    width: 20em;
+    height: 10em; 
+}
+.marcas{
+  width: 10%;
+  margin: 2em;
+  border-radius: 2em;
+}
+.caixa-marcas{
+  justify-content: center;
+  text-align: center;
+  background-color: #FFBABA;
+  width: 100%;
+  padding: 2em;
+}
+.redes{
+  margin: 2em;
+  font-size: 2em;
+  justify-content: center;
+  text-align: center;
+}
+.caixa-redes{
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 1em;
+}
+.insta{
+  width: 2em;
+  height: 2em;
+  margin: 1em;
+}
