@@ -1,4 +1,4 @@
-/* Global Styles */
+/*             Global Styles              */
 header{
     background-color: #FFBABA;
     width: 100%;
@@ -14,15 +14,18 @@ h1 {
     font-size: 3em;
     padding: 0.5em;
   }
-  h2,
-  h3 {
+  h2{
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 2em;
   }
+  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+  }
   body {
-    color: #000;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
   }
@@ -32,19 +35,7 @@ h1 {
     margin-right: 2em;
     
 }
-  nav li {
-    display: inline-block;
-    width: auto;
-    margin-right: 1em;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-  }
-  nav a {
-    text-transform: uppercase;
-    color: #000;
-    text-decoration: none;
-}
+
 footer{
   background-color: #FFBABA;
   display: flex;
@@ -53,8 +44,8 @@ footer{
   padding: 2em;
 }
 
-/* Minhas Classes */
-.sobre{
+/*            Minhas Classes                 */
+.sobre, .promocao, .redes{
     margin: 2em;
     font-size: 2em;
     justify-content: center;
@@ -65,7 +56,7 @@ footer{
     height: 10em; 
 }
 .marcas{
-  width: 10%;
+  width: 7%;
   margin: 2em;
   border-radius: 2em;
 }
@@ -74,14 +65,9 @@ footer{
   text-align: center;
   background-color: #FFBABA;
   width: 100%;
-  padding: 2em;
+  padding: 1em;
 }
-.redes{
-  margin: 2em;
-  font-size: 2em;
-  justify-content: center;
-  text-align: center;
-}
+
 .caixa-redes{
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
@@ -92,4 +78,70 @@ footer{
   width: 2em;
   height: 2em;
   margin: 1em;
+}
+
+
+/*                 Produtos                   */
+.produtos div:hover {
+  background-color: #fff;
+  border: solid 1px #FF3665;
+  box-shadow: 10px 10px 5px 0px #B0005C;
+  color: #FF3665;
+  width: 35em;
+  height: 15em;
+  margin-top: -2em;
+}
+
+.produto {
+  text-align: center;
+  background: #FFBABA;
+  border-radius: 1em;
+  width: 35em;
+  height: 15em;
+  margin: 0 2em;
+  box-shadow: 10px 10px 5px 0px #6B4950;
+  transition: 0.5s;
+}
+
+.foto-produto{
+  width: 10em;
+  height: 6em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  padding: 2em 5em;
+}
+
+.valor {
+  font-size: 1em;
+}
+
+@media (max-width: 500px) {
+  .produtos {
+      flex-direction: column;
+      padding: 10em 10em;
+      margin-top: 5em;
+      margin: auto;
+      display: grid;
+  }
+  .produto {
+      width: 20em;
+      height: 12em;
+      margin: 0 2em 2em;
+      font-size: 10px;
+  }
+  h3 {
+      font-size: small;
+  }
+  .produtos div:hover {
+      width: 25em;
+      height: 15em;
+      margin: 2em auto;
+  }
 }
